@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono:regular);
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #F222AB;
+    text-align: left;
+    padding: 40px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+.gray-block {
+    background-color: #E6E6E6; 
+    height: 480px;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.log-in-title {
+    margin-bottom: 0;
+}   
+
+.division-1 {
+    font-family: "Share Tech Mono", cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.division-1 h2 {
+    font-size: 50px;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue.writtens {
+    margin-left: 3px;
+    color: blue
+}
+
+
+.division-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.division-2 {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.division-2 input[type=text], .division-2 input[type="password"] {
+    margin-bottom: 10px;
+    width: auto;
+    height: 50px;
+}
+
+
+.division-2 .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /*add espaçamento inferior*/
+}
+
+.division-2 .input-wrapper i {
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+    color: #999;
+}
+
+.division-2 .input-wrapper input[type="text"],
+.division-2 .input-wrapper input[type="password"] {
+    padding-left: 50px;
+    padding-top: 2%;
+}
+
+
+
+.division-2 .input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.division-2 .input-wrapper i {
+    position: absolute;
+    left: 20px; /* Ajust please */
+    font-size: 30px; /* passivel de ajustes*/
+    color: #999;
+}
+
+.division-2 .input-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 1.5%;
+    top: 50%;
+    margin-left: 10px;
+    transform: translateY(-50%);
+    width: 35px;/* ajuste */
+    height: 35px; /*ajuste tmb*/
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.division-2 input[type="text"],
+.division-2 input[type="password"] {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.password-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.password-input-wrapper input[type="password"] {
+    padding-right: 40px;
+    margin-right: 10px;
+}
+
+.forgot-password {
+    margin-top: 5px;
+    color: #999;
+    font-size: 14px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.division-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #F222AB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
